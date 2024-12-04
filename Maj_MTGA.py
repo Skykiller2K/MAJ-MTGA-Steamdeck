@@ -5,10 +5,8 @@ import os
 import time
 import threading
 
-#dossier_mtga_night = Path("/home/deck/Games/MTGA")
-#dossier_mtga_source = Path("/home/deck/.local/share/Steam/steamapps/common/MTGA")
-dossier_mtga_night = Path("c:/temp1")
-dossier_mtga_source = Path("c:/temp2")
+dossier_mtga_night = Path("/home/deck/Games/MTGA")
+dossier_mtga_source = Path("/home/deck/.local/share/Steam/steamapps/common/MTGA")
 
 taille_dossier_source = 0
 for path, dirs, files in os.walk(dossier_mtga_source):
