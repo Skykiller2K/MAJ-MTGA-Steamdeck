@@ -26,3 +26,5 @@ while True :
         print ("%s %" %(pourcentage))
         time.sleep(1)
         continue
+
+    #test
